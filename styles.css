@@ -5,6 +5,27 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(44, 44, 44);
+}
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(66, 66, 66);
+}
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #80282d;
+    border-radius: 10px;
+}
+
 .hero{
     height: 100vh;
     width: 100%;
@@ -13,7 +34,8 @@
     background-size: 125%;
     background-repeat: no-repeat;
     background-position-x: -20%;
-    background-position-y: 40%;
+    background-position-y: bottom;
+    
 }
 
 nav{
@@ -30,4 +52,11 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+}
+
+.plist{
+    background-color:rgb(39, 39, 39);
+    height: 500vh;
+    width: 100%;
+    position: sticky;
 }
