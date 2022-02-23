@@ -11,6 +11,7 @@
     background-image: url(docs/assets/gfx1.png);
     background-color: rgb(33, 33, 33);
     background-size: 125%;
+    background-repeat: no-repeat;
     background-position-x: -20%;
     background-position-y: 40%;
 }
