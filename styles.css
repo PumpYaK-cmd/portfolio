@@ -12,7 +12,6 @@
     background-color: rgb(33, 33, 33);
     background-size: cover;
     background-position: right center;
-    padding-left: 50%;
 }
 
 nav{
@@ -29,5 +28,4 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
-    padding-right: 50%;
 }
